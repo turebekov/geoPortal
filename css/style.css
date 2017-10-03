@@ -1,0 +1,61 @@
+.bg-lang{
+    background-image: url("../images/bg-lang.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.logo{
+    margin-top: 20px;
+}
+.title{
+    font-size: 36px;
+    font-family: 'Roboto Slab', serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 5px;
+}
+
+@font-face{
+    font-family: 'GothamPro';
+    src: url('../fonts/Gothampro/GothamPro/GothamPro.eot?') format('eot'),
+    url('../fonts/Gothampro/GothamPro/GothamPro.otf')  format('opentype'),
+    url('../fonts/Gothampro/GothamPro/GothamPro.woff') format('woff'),
+    url('../fonts/Gothampro/GothamPro/GothamPro.ttf')  format('truetype'),
+    url('../fonts/Gothampro/GothamPro/GothamPro.svg#GothamPro') format('svg');
+}
+.geo{
+    font-size: 14px;
+    font-family: 'GothamPro';
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 2.08;
+    text-align: center;
+    margin-top: -15px;
+
+
+}
+.lang{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    margin-top: 40px;
+    text-align: center;
+}
+.lang-btn {
+    font-size: 32px;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 100%;
+    background-color: #1F388A;
+    border-radius: 50px;
+    margin-top: 10px !important;
+}
+
+
+
+
+
+
