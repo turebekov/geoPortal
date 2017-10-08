@@ -1,14 +1,16 @@
-.bg-lang{
+.bg-lang {
     background-image: url("../images/bg-lang.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
     width: 100%;
 }
-.logo{
+
+.logo {
     margin-top: 20px;
 }
-.title{
+
+.title {
     font-size: 36px;
     font-family: 'Roboto Slab', serif;
     color: rgb(255, 255, 255);
@@ -17,15 +19,16 @@
     margin-top: 5px;
 }
 
-@font-face{
+@font-face {
     font-family: 'GothamPro';
     src: url('../fonts/Gothampro/GothamPro/GothamPro.eot?') format('eot'),
-    url('../fonts/Gothampro/GothamPro/GothamPro.otf')  format('opentype'),
+    url('../fonts/Gothampro/GothamPro/GothamPro.otf') format('opentype'),
     url('../fonts/Gothampro/GothamPro/GothamPro.woff') format('woff'),
-    url('../fonts/Gothampro/GothamPro/GothamPro.ttf')  format('truetype'),
+    url('../fonts/Gothampro/GothamPro/GothamPro.ttf') format('truetype'),
     url('../fonts/Gothampro/GothamPro/GothamPro.svg#GothamPro') format('svg');
 }
-.geo{
+
+.geo {
     font-size: 14px;
     font-family: 'GothamPro';
     color: rgb(255, 255, 255);
@@ -34,18 +37,19 @@
     text-align: center;
     margin-top: -15px;
 
-
 }
-.lang{
+
+.lang {
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
     color: rgb(255, 255, 255);
     margin-top: 40px;
     text-align: center;
 }
+
 .lang-btn {
     font-size: 32px;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     color: rgb(255, 255, 255);
     text-align: center;
     width: 100%;
@@ -53,8 +57,165 @@
     border-radius: 50px;
     margin-top: 10px !important;
 }
+/*   */
 
 
+.bg-categori {
+    background-image: url(../images/bg-categori.png);
+    height: 100%;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+.menu {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    float: left;
+}
+.logo-cat{
+    margin-top: 15px;
+
+}
+
+.smart{
+    font-size: 16px;
+    font-family: 'Roboto Slab', serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
+    text-align: right;
+    float: left;
+
+}
+
+
+.geo-cat{
+    font-size: 6px;
+    font-family: 'GothamPro';
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 2.08;
+    text-align: right;
+    float: left;
+}
+.search{
+    margin-top: 25px;
+}
+.caption p{
+    margin-bottom: 0px; !important;
+}
+.caption{
+
+}
+@media screen and (min-width:314px) and (max-width:330px) {
+
+}
+@media screen and (min-width:341px) {
+    .geo-cat{
+        font-size: 7px;
+    }
+}
+.sections{
+    font-size: 14px;
+    font-family:'Roboto',sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.208;
+    margin-top: -5px !important;
+    margin-bottom: 10px !important;
+}
+hr{
+    margin-top: 0px;
+    margin-bottom: 10px !important;
+    border-top: 1px solid rgba(31, 31, 31, 0.62);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.categories-1{
+    background-image: url("../images/category-bg-1.png");
+    width: 105%;
+    height: 100%;
+    white-space: nowrap;
+    margin: 1em 0;
+}
+.categories-2{
+    background-image: url("../images/category-bg-2.png");
+    width: 105%;
+    height: 100%;
+    white-space: normal;
+    margin: 1em 0;
+}
+.categories-3{
+    background-image: url("../images/category-bg-3.png");
+    width: 105%;
+    height: 100%;
+    white-space: normal;
+    margin: 1em 0;
+}
+.categories-4{
+    background-image: url("../images/category-bg-4.png");
+    width: 105%;
+    height: 100%;
+    white-space: nowrap;
+    margin: 1em 0;
+}
+.categories-5{
+    background-image: url("../images/category-bg-5.png");
+    width: 105%;
+    height: 100%;
+    white-space: nowrap;
+    margin: 1em 0;
+}
+.categories-6{
+    background-image: url("../images/category-bg-6.png");
+    width: 105%;
+    height: 100%;
+    white-space: nowrap;
+    margin: 1em 0;
+}
+.categories-7{
+    background-image: url("../images/category-bg-7.png");
+    width: 105%;
+    height: 100%;
+    white-space: nowrap;
+    margin: 1em 0;
+}
+.categories-8{
+    background-image: url("../images/category-bg-4.png");
+    width: 105%;
+    height: 100%;
+    white-space: nowrap;
+    margin: 1em 0;
+}
+.categories-9{
+    background-image: url("../images/category-bg-9.png");
+    width: 105%;
+    height: 100%;
+    white-space: nowrap;
+    margin: 1em 0;
+}
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.center{
+    display: block;
+    margin: 0 auto;
+    vertical-align: middle;
+    max-height: 100%;
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+.categories p{
+    text-align: center;
+    line-height: 16.5px !important;
+}
+.categories a{
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+}
 
 
 
