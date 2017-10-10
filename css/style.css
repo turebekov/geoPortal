@@ -2,7 +2,7 @@
     background-image: url("../images/bg-lang.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
+    height: 100% !important;
     width: 100%;
 }
 
@@ -57,7 +57,53 @@
     border-radius: 50px;
     margin-top: 10px !important;
 }
-/*   */
+/* sign in */
+.sign{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+
+    text-align: center;
+}
+
+.account-input-first{
+    width: 100%;
+    height: 45px;
+    border: 1px solid #ccc;
+}
+.account-input{
+    width: 100%;
+    height: 45px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+}
+
+.account-link{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 200, 201);
+    text-decoration: underline;
+    margin-top: 20%;
+}
+
+.btn-account{
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 75%;
+    height: 65px;
+    background-color: #1F388A;
+    border-radius: 50px;
+    margin-top: 15px !important;
+    box-sizing: border-box;
+}
+::-webkit-input-placeholder {
+    color: #808080;
+    text-align: center;
+}
+
+/*  categories */
 
 
 
