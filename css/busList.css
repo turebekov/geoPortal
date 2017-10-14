@@ -1,0 +1,42 @@
+.bus{
+    background-color: #1F388A;
+}
+.bus-top{
+    margin: 20px 0 20px 0px !important;
+}
+.list-bus{
+    font-size: 25px;
+    font-family: 'Roboto',sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 0.799;
+    text-align: left;
+    margin-left:  10px;
+}
+.shooter{
+    height: 22px;
+    width: 36px;
+    margin-top: -10px;
+}
+.grid{
+    height: 50%;
+    width: 16%;
+    background-color: #1F388A;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 24px;
+    font-family: 'Roboto',sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 50px;
+}
+
+.row div{
+    margin-left: 10px;
+}
+.row div:first-child{
+    margin-left: 17px;
+}
+@media screen and (min-width:351px) {
+    .grid{
+        width: 15%;
+    }
+}
